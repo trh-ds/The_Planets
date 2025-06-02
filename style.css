@@ -1,0 +1,100 @@
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav {
+    background-color: black;
+    padding: 1rem;
+}
+
+.nav-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.nav-list {
+    position: absolute;
+    top: 4%;
+    right: 10%;
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: #d1d5db;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+canvas {
+    display: block;
+    background-image: url('The_Planets/public/stars.jpg');
+}
+
+
+.nameContainer{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+
+}
+
+.heading{
+    font-size: 9rem;
+    font-weight: 300;
+    /* letter-spacing: -0.05em; */
+    color: white;
+    margin: 0;
+    mix-blend-mode: difference;
+}
+
+.subText{
+    font-size: 0.875rem;
+    color: #ffffff;
+    mix-blend-mode: difference;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #ffffff, transparent);
+    margin: 1rem;
+}
+
+
+.headingContainer{
+    height: 11rem;
+    overflow: hidden;
+}
+
+.heading{
+    height:100%
+}
+
+
+.descriptionContainer{
+    height: 17px;
+    overflow: hidden;
+}
+
+.subText{
+    height: 100%;
+    color: white;
+}
+
+
